@@ -1,0 +1,152 @@
+﻿fieldset{
+width:500px;
+float:center;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+border:4px double #FE9A2E;
+text-align:center;
+}
+
+/*Propiedades de la lista UL*/
+
+fieldset ul,fieldset li{
+	border:0;
+	list-style:none;
+	margin:0px;
+	padding:1px;
+}
+
+fieldset li{
+	clear:both;
+	list-style:none;
+	font:bold 103% time new roman;
+	padding-bottom:2px;
+	}
+	
+.radio{
+text-align:left;
+font:95% time new roman;
+margin-left:10px;
+}
+
+/*Propiedades de etiqueta*/
+fieldset label{
+width:auto;
+float:left;
+color:black;
+font:bold 100% time new roman;
+margin-top:2px;
+margin-left:2px;
+padding-top:3px;
+padding-bottom:3px;
+text-align:left;
+}
+
+/*Texto *Campos obligatorios*/
+#campos{
+margin-top:3px;
+color:red;
+font:90% Times New Roman;
+text-align:right;
+}
+	
+legend{
+font:bold 90% Verdana;
+color:black;
+}
+
+input.rounded{
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+-moz-box-shadow:2px 2px 3px black;
+-webkit-box-shadow:2px 2px 3px 3px black;
+box-shadow:3px 3px 5px brown;
+font-family:verdana,arial;     /* tipo de letra */  
+width: 330px;
+font-size:7pt;
+padding:5px;
+padding-left:2px;
+border:3px double #DF7401;
+border-color:orange;
+display:black;
+text-indent:2px;
+float:left;
+}
+
+input.rounded:focus{
+background-color:#FAFAFA;
+color:#0B0B3B;
+border:3px double #FB9209;/*Naranja*/
+}
+
+select.select{
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+-moz-box-shadow:2px 2px 3px black;
+-webkit-box-shadow:2px 2px 3px 3px black;
+box-shadow:3px 3px 5px brown;
+font-family:verdana,arial;     /* tipo de letra */  
+width: auto;
+font-size:10pt;
+padding:1px 2px;
+padding-left:2px;
+border:3px double #DF7401;
+border-color:orange;
+display:black;
+line-height:10px;
+float:left;
+}
+
+select.select:focus{
+background-color:#FAFAFA;
+color:#0B0B3B;
+border:3px double #FB9209;/*Naranja*/
+}
+
+input.rounded1{
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+-moz-box-shadow:2px 2px 3px black;
+-webkit-box-shadow:2px 2px 3px 3px black;
+box-shadow:3px 3px 5px brown;
+font-size:15px;
+padding:2px 8px;
+border:3px ridge orange;
+color:black;
+background-color:#F7F2E0;
+font-family:time new roman,arial;
+margin-top:10px;
+}
+
+input.boton:hover{
+top:10px;
+left:40px;
+color:#fff;
+border:3px ridge;
+border-color:#F7F2E0;
+background-color:#F47A00;
+font-family:time new roman,arial; 
+cursor: pointer;
+}
+
+input.boton:active{
+top:10px;
+left:40px;
+color:#fff;
+border:3px ridge;
+border-color: #F7F2E0;
+background-color: #F9A920;
+font-family:time new roman,arial; 
+}
+
+
+textarea {
+resize: vertical;
+border: 3px double orange;
+font-family: Tahoma, sans-serif;
+float:left;
+}

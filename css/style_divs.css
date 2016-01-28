@@ -1,0 +1,392 @@
+﻿body{
+margin:-5px auto 5px auto;/*top,right,bottom,left*/
+background-color:#EFEFEF;
+text-align:center;
+width:1330px;
+height:660px;
+}
+
+#contenedor{
+background-color:#EFEFEF;
+text-align: center;
+font-family:Verdana; 
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+}
+
+#banner{
+text-align: center;
+padding-bottom:4px;
+}
+
+.bordeimagen{	
+-moz-border-radius:7px;/* Firefox*/
+-ms-border-radius:7px; /* IE 8.*/ 
+-webkit-border-radius: 7px; /* Safari,Chrome.*/
+border-radius:7px;
+height:165px;
+}
+
+
+#cssmenu{
+background-color:#000;
+text-align: left;
+}
+
+#contenido{
+background-color:grey;
+height:auto;
+margin-top:5px;
+overflow: hidden;
+-moz-border-radius:7px;/* Firefox*/
+-ms-border-radius:7px; /* IE 8.*/ 
+-webkit-border-radius: 7px; /* Safari,Chrome.*/
+border-radius:7px;
+}
+
+#botones_sec{
+text-align:left;
+height:auto;
+}
+
+/*General*/
+#izquierda{
+float:left;
+height:282px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha{
+height:370px;
+background-color:#fff;
+padding-top:5px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*===========================================================div para Planta Vehicular===========================================================================*/
+#izquierda2{
+float:left;
+height:1384px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha2{
+height:1470px;
+background-color:#fff;
+padding-top:7px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*==================================================Inventario Bienes Muebles y Bienes Inmuebles================================================================================*/
+#izquierda3{
+float:left;
+height:969px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha3{
+height:1055px;
+background-color:#fff;
+padding-top:7px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*==================================================Responsables y todas las Busquedas==============================================================================*/
+#izquierda4{
+float:left;
+height:594px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha4{
+height:680px;
+background-color:#fff;
+padding-top:7px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*==================================================Bienes Informaticos==============================================================================*/
+#izquierda5{
+float:left;
+height:1114px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha5{
+height:1200px;
+background-color:#fff;
+padding-top:7px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*==================================================Registrar Inmuebles 2==============================================================================*/
+#izquierda6{
+float:left;
+height:620px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha6{
+height:706px;
+background-color:#fff;
+padding-top:7px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*===========================================================================Modificar Coordinación=========================================================================*/
+#izquierda7{
+float:left;
+height:402px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha7{
+height:490px;
+background-color:#fff;
+padding-top:5px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*=============Modificar Responsable=====================Ver y Eliminar Estado de Adquisición===================Ver Documentos Inmuebles=================================*/
+#izquierda8{
+float:left;
+height:717px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha8{
+height:805px;
+background-color:#fff;
+padding-top:5px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*======================================================================Registrar Usuarios=============================================================================*/
+#izquierda9{
+float:left;
+height:934px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha9{
+height:1020px;
+background-color:#fff;
+padding-top:7px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*======================================================================Modificar Usuarios=============================================================================*/
+#izquierda10{
+float:left;
+height:914px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha10{
+height:1000px;
+background-color:#fff;
+padding-top:7px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*======================================================================Registrar Servicio vehículo=============================================================================*/
+#izquierda11{
+float:left;
+height:475px;
+background-color:#FB8D20;
+text-align: center;
+padding-top:100px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#derecha11{
+height:563px;
+background-color:#fff;
+padding-top:5px;
+padding-left:7px;
+padding-right:10px;
+padding-bottom:7px;
+overflow:auto;
+}
+
+/*=============================================================Index=========================================================*/
+.indexfont{
+font: Italic 20pt Verdana;
+color:#fb8d20;
+text-align: center;
+}
+
+#tipo{
+	font:9pt Verdana;
+	color:#7A7A7A;
+	text-align:right;
+}
+
+
+#pie{
+background-color:#FB8D20;
+margin-top:5px;
+padding-top:7px;
+padding-bottom:3px;
+text-align:center;
+clear: both;
+font: italic 13pt Time New Romans;
+color:#fff;
+-moz-border-radius:7px;/* Firefox*/
+-ms-border-radius:7px; /* IE 8.*/ 
+-webkit-border-radius: 7px; /* Safari,Chrome.*/
+border-radius:7px;
+}
+
+/*Quitar borde azul en IE*/
+img {
+    border: none;
+}
+
+#icon_excel{
+padding-right:1000px;
+padding-bottom:10px;
+}
+
+#icon_pdf{
+padding-right:1000px;
+padding-bottom:10px;
+}
+
+/*Inmuebles (información renta y prestamo)*/
+#titulo{
+	background-color:#fb8d20;
+	width:730px;
+	text-align:center;
+	margin-bottom:5px;
+	font:italic 11pt Georgia;
+	color:#fff;
+	-moz-border-radius:6px;/* Firefox*/
+	-ms-border-radius:6px; /* IE 8.*/ 
+	-webkit-border-radius:6px; /* Safari,Chrome.*/
+}
+
+#text{
+	background-color:#fb8d20;
+	width:710px;
+	text-align:left;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font:10pt Georgia;
+	-moz-border-radius:7px;/* Firefox*/
+	-ms-border-radius:7px; /* IE 8.*/ 
+	-webkit-border-radius:7px; /* Safari,Chrome.*/
+}
+
+.transparente{
+opacity:0.8;
+-moz-opacity:0.8;
+filter:alpha(opacity=80);
+-khtml-opacity:0.8;
+}
+
+#botones{
+width:710px;
+}
+
+#left{
+float:left;
+text-align:right;
+width:600px;
+}
+
+#right{
+text-align:right;
+padding-right:20px;
+width:690px;
+}
+
+/*Estilos borrar documentos de inmuebles*/
+#botonesDocumento{
+width:140px;
+}
+
+#leftDocumento{
+float:left;
+text-align:right;
+width:50px;
+}
+
+#rightDocumento{
+text-align:right;
+padding-right:5px;
+width:135px;
+}

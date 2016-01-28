@@ -1,0 +1,130 @@
+	fieldset{
+	width:500px;
+	float:center;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:4px double #FE9A2E;
+	}
+	
+	/*Propiedades de la lista UL*/
+		
+	legend{
+		font:bold 90% Verdana;
+		color:black;
+	}
+
+  .cf:before, .cf:after {
+    content:"";
+    display: block;
+  }
+  .cf:after {clear: left; }
+  .cf { zoom:1; }
+
+   /* el formulario en si mismo */
+  .formulariodemo {
+    background-color: #303950;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #606971 inset;
+    margin: 0 auto;
+    padding: 15px;
+    width: 430px;
+  }
+
+   /* la caja donde se ingresa el texto a buscar */
+  .formulariodemo input {
+    background-color: #EEE;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    float: left;
+    font-family: Tahoma;font-size:15px;font-weight:normal;
+    height: 20px;
+    padding: 10px 5px;
+    width: 300px;
+  }
+  .formulariodemo input:focus {
+    outline: 0;
+    background: #FFF;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  }
+
+
+ /* el estilo de del atributo placeholder debe ser declarado para cada navegador de modo separado */
+  .formulariodemo input:-moz-placeholder { color: #999; font-weight: normal; font-style: italic; }
+  .formulariodemo input::-webkit-input-placeholder { color: #999; font-weight: normal; font-style: italic; }
+  .formulariodemo input:-ms-input-placeholder { color: #999; font-weight: normal; font-style: italic; }
+  
+ /* aquí iría el estilo de del atributo required si es que se desea definirlo */
+  .formulariodemo input:required { box-shadow: none; }
+
+   /* el botón de envio */
+  .formulariodemo button {
+    background-color: #9099A1;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    width: 120px;
+  }
+  .formulariodemo button:hover{ background: #F47A00; } 
+  .formulariodemo button:active, .formulariodemo button:focus{ background: orange; }
+  .formulariodemo button:before { /* el detalle del triángulo izquierdo */
+    content: "";
+    border-color: transparent #9099A1 transparent;
+    border-style: solid solid solid none;
+    border-width: 8px 8px 8px 0;
+    left: -7px;
+    position: absolute;
+    top: 12px;
+  }
+  .formulariodemo button:hover:before { border-right-color: #F47A00; }
+  .formulariodemo button:focus:before { border-right-color: orange; } 
+  
+ /*====================================================BUSQUEDA INCREMENTAL====================================================*/
+    /* el formulario en si mismo */
+  .formulariodemo1 {
+    background-color: #303950;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #606971 inset;
+    margin: 0 auto;
+    padding: 15px;
+    width: 430px;
+  }
+
+   /* la caja donde se ingresa el texto a buscar */
+  .formulariodemo1 input {
+    background-color: #EEE;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    float: left;
+    font-family: Tahoma;font-size:15px;font-weight:normal;
+    height: 20px;
+    padding: 10px 5px;
+    width: 420px;
+  }
+  .formulariodemo1 input:focus {
+    outline: 0;
+    background: #FFF;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+  }
+
+
+ /* el estilo de del atributo placeholder debe ser declarado para cada navegador de modo separado */
+  .formulariodemo1 input:-moz-placeholder { color: #999; font-weight: normal; font-style: italic; }
+  .formulariodemo1 input::-webkit-input-placeholder { color: #999; font-weight: normal; font-style: italic; }
+  .formulariodemo1 input:-ms-input-placeholder { color: #999; font-weight: normal; font-style: italic; }
+  
+ /* aquí iría el estilo de del atributo required si es que se desea definirlo */
+  .formulariodemo1 input:required { box-shadow: none; }
+
+

@@ -1,0 +1,70 @@
+#miTabla {
+font-style : normal;
+border-collapse : separate;
+}
+
+
+#miTabla th{
+/*estilo de los elementos(th)*/
+font-family : "Tahoma" , sans-serif ;
+background-color : #CC6600;
+color : #FFF ;
+/*text-shadow : 1px  1px  1px #CC6600;*/
+border : 1px  solid  white;
+line-height : 1.2em; 
+/*font-weight:bold;*/
+font-size : 11px;
+padding : 10px;
+background :-webkit-gradient (
+        linear,
+        left  bottom ,
+        left  top ,
+        color-stop ( 0,02 , rgb ( 123 , 192 , 67 )),
+        color-stop ( 0,51 , rgb ( 139 , 198 , 66 )),
+        color-stop ( 0,87 , rgb ( 158 , 217 , 41 ))
+        );
+background :-moz-linear-gradient (
+        center bottom ,
+        rgb ( 123 , 192 , 67 ) 2% ,
+        rgb ( 139 , 198 , 66 ), 51% ,
+        rgb ( 158 , 217 , 41 ) 87%
+        );
+	-Webkit-border-top-left-radius: 7px ;
+    -Webkit-border-top-right-radius: 7px ;
+    -Webkit-border-bottom-right-radius: 7px ;
+    -Webkit-border-bottom-left-radius: 7px ;
+    -moz-border-radius : 7px  7px  7px  7px ;
+    border-top-left-radius: 7px ;
+    border-top-right-radius: 7px ;
+}
+
+
+#miTabla td{
+/*estilo a los elementos (td)*/
+ font-family : "calibri",sans-serif ;
+ padding : 5px ;
+ font-size: 12px;
+ text-align : center ;
+  border: 2px solid white ;
+    -Moz-border-radius : 5px ;
+    -Webkit-border-radius : 5px ;
+    border-radius : 2px ;
+}
+
+#miTabla tr:nth-child(odd) {
+	/*para los colores de las filas impares*/
+   background-color:#FFA202;
+   color:#000;
+}
+
+#miTabla tr:nth-child(even) {
+	/*para los colores de las filas pares*/
+   background-color:#F0F0F0;
+   color:#000;
+}
+
+#miTabla tr:hover{
+background:#FFCC33;
+color:black;
+cursor: pointer;
+}
